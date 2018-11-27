@@ -1,0 +1,65 @@
+.clear{
+    margin: 0;
+    padding: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #222222;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 15px;
+}
+nav{
+    border-radius: 0px !important;
+}
+.menu-style {
+    width: 192px;
+    background-image: url('../Image/button.png');
+    border: 1px solid #dddddd;
+}
+.menu-style:hover {
+    background-image: url('../Image/button-active.png');
+    border: 1px solid #0094ff;
+    transition: 0.5s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    transition: 0.5s;
+}
+.login-box{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+#login-header-text{
+    margin-top:3px;
+    margin-left: 190px;
+}
+.account-session {
+    height: 50px;
+    background: #0b9444;
+}
+.account-session > h4{
+    text-align: right;
+    padding-top: 6px;
+    padding-right: 5px;
+    color: white;
+}
+.account-session > h4 > a {
+    color: #86d8fd;
+}
+.account-session > h4 > a:hover {
+    color: white;
+}
+.button-submit {
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 200px;
+}
+.active-menu {
+    width: 192px;
+    background-image: url('../Image/button-active.png');
+    border: 1px solid #0094ff;
+}
+.navbar-default .navbar-nav .active-menu > a{
+    color: white;
+}
